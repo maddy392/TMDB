@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A8B62C82C06F8D300BCE69B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B62C72C06F8D300BCE69B /* SceneDelegate.swift */; };
 		8AA19DEF2C02C86000E82869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19DEE2C02C86000E82869 /* AppDelegate.swift */; };
-		8AA19DF12C02C86000E82869 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19DF02C02C86000E82869 /* SceneDelegate.swift */; };
-		8AA19DF32C02C86000E82869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19DF22C02C86000E82869 /* ViewController.swift */; };
+		8AA19DF32C02C86000E82869 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19DF22C02C86000E82869 /* LoginViewController.swift */; };
 		8AA19DF62C02C86000E82869 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8AA19DF52C02C86000E82869 /* Base */; };
 		8AA19DF82C02C86100E82869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA19DF72C02C86100E82869 /* Assets.xcassets */; };
 		8AA19DFB2C02C86100E82869 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8AA19DFA2C02C86100E82869 /* Base */; };
 		8AA19E062C02C86100E82869 /* TMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E052C02C86100E82869 /* TMDBTests.swift */; };
 		8AA19E102C02C86100E82869 /* TMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E0F2C02C86100E82869 /* TMDBUITests.swift */; };
 		8AA19E122C02C86100E82869 /* TMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E112C02C86100E82869 /* TMDBUITestsLaunchTests.swift */; };
+		8AA19E202C02C9CC00E82869 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E1F2C02C9CC00E82869 /* GradientView.swift */; };
+		8AA19E252C02CBD200E82869 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA19E242C02CBD200E82869 /* Colors.xcassets */; };
+		8AA19E272C02F5A300E82869 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E262C02F5A300E82869 /* LoginTextField.swift */; };
+		8AA19E2A2C0406DB00E82869 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E292C0406DB00E82869 /* SearchViewController.swift */; };
+		8AA19E2E2C040B7300E82869 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E2D2C040B7300E82869 /* Movie.swift */; };
+		8AA19E322C04F13D00E82869 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E312C04F13D00E82869 /* WatchListViewController.swift */; };
+		8AA19E342C04F34100E82869 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E332C04F34100E82869 /* MovieModel.swift */; };
+		8AA19E372C04F43400E82869 /* TMDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E362C04F43400E82869 /* TMDBClient.swift */; };
+		8AA19E392C052CDB00E82869 /* MovieResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E382C052CDB00E82869 /* MovieResults.swift */; };
+		8AA19E3B2C05745800E82869 /* RequestTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E3A2C05745800E82869 /* RequestTokenResponse.swift */; };
+		8AA19E3D2C058CEC00E82869 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E3C2C058CEC00E82869 /* LoginRequest.swift */; };
+		8AA19E3F2C05942F00E82869 /* PostSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E3E2C05942F00E82869 /* PostSession.swift */; };
+		8AA19E412C05949F00E82869 /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19E402C05949F00E82869 /* SessionResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A8B62C72C06F8D300BCE69B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../dummy/dummy/SceneDelegate.swift; sourceTree = "<group>"; };
 		8AA19DEB2C02C86000E82869 /* TMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA19DEE2C02C86000E82869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AA19DF02C02C86000E82869 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AA19DF22C02C86000E82869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AA19DF22C02C86000E82869 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8AA19DF52C02C86000E82869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA19DF72C02C86100E82869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA19DFA2C02C86100E82869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		8AA19E0B2C02C86100E82869 /* TMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA19E0F2C02C86100E82869 /* TMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBUITests.swift; sourceTree = "<group>"; };
 		8AA19E112C02C86100E82869 /* TMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AA19E1F2C02C9CC00E82869 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8AA19E242C02CBD200E82869 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = "../../../../../../../../Downloads/ios-nd-networking-master/TheMovieManagerStarter/TheMovieManager/Assets/Colors.xcassets"; sourceTree = "<group>"; };
+		8AA19E262C02F5A300E82869 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		8AA19E292C0406DB00E82869 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8AA19E2D2C040B7300E82869 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8AA19E312C04F13D00E82869 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		8AA19E332C04F34100E82869 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		8AA19E362C04F43400E82869 /* TMDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBClient.swift; sourceTree = "<group>"; };
+		8AA19E382C052CDB00E82869 /* MovieResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResults.swift; sourceTree = "<group>"; };
+		8AA19E3A2C05745800E82869 /* RequestTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTokenResponse.swift; sourceTree = "<group>"; };
+		8AA19E3C2C058CEC00E82869 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		8AA19E3E2C05942F00E82869 /* PostSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSession.swift; sourceTree = "<group>"; };
+		8AA19E402C05949F00E82869 /* SessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +125,13 @@
 		8AA19DED2C02C86000E82869 /* TMDB */ = {
 			isa = PBXGroup;
 			children = (
+				8AA19E2B2C040B5900E82869 /* Model */,
+				8AA19E1E2C02C9B200E82869 /* View */,
 				8AA19DEE2C02C86000E82869 /* AppDelegate.swift */,
-				8AA19DF02C02C86000E82869 /* SceneDelegate.swift */,
-				8AA19DF22C02C86000E82869 /* ViewController.swift */,
+				8A8B62C72C06F8D300BCE69B /* SceneDelegate.swift */,
+				8AA19E282C04069200E82869 /* Controller */,
 				8AA19DF42C02C86000E82869 /* Main.storyboard */,
-				8AA19DF72C02C86100E82869 /* Assets.xcassets */,
+				8AA19E232C02CBC300E82869 /* Assets */,
 				8AA19DF92C02C86100E82869 /* LaunchScreen.storyboard */,
 				8AA19DFC2C02C86100E82869 /* Info.plist */,
 			);
@@ -125,6 +153,65 @@
 				8AA19E112C02C86100E82869 /* TMDBUITestsLaunchTests.swift */,
 			);
 			path = TMDBUITests;
+			sourceTree = "<group>";
+		};
+		8AA19E1E2C02C9B200E82869 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19E1F2C02C9CC00E82869 /* GradientView.swift */,
+				8AA19E262C02F5A300E82869 /* LoginTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AA19E232C02CBC300E82869 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19E242C02CBD200E82869 /* Colors.xcassets */,
+				8AA19DF72C02C86100E82869 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8AA19E282C04069200E82869 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19DF22C02C86000E82869 /* LoginViewController.swift */,
+				8AA19E292C0406DB00E82869 /* SearchViewController.swift */,
+				8AA19E312C04F13D00E82869 /* WatchListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AA19E2B2C040B5900E82869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19E352C04F41900E82869 /* TMDB */,
+				8AA19E2C2C040B6200E82869 /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AA19E2C2C040B6200E82869 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19E2D2C040B7300E82869 /* Movie.swift */,
+				8AA19E332C04F34100E82869 /* MovieModel.swift */,
+				8AA19E382C052CDB00E82869 /* MovieResults.swift */,
+				8AA19E3A2C05745800E82869 /* RequestTokenResponse.swift */,
+				8AA19E3C2C058CEC00E82869 /* LoginRequest.swift */,
+				8AA19E3E2C05942F00E82869 /* PostSession.swift */,
+				8AA19E402C05949F00E82869 /* SessionResponse.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8AA19E352C04F41900E82869 /* TMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8AA19E362C04F43400E82869 /* TMDBClient.swift */,
+			);
+			path = TMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA19DF82C02C86100E82869 /* Assets.xcassets in Resources */,
+				8AA19E252C02CBD200E82869 /* Colors.xcassets in Resources */,
 				8AA19DFB2C02C86100E82869 /* Base in Resources */,
 				8AA19DF62C02C86000E82869 /* Base in Resources */,
 			);
@@ -258,9 +346,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA19DF32C02C86000E82869 /* ViewController.swift in Sources */,
+				8AA19E392C052CDB00E82869 /* MovieResults.swift in Sources */,
+				8AA19E3D2C058CEC00E82869 /* LoginRequest.swift in Sources */,
+				8AA19E342C04F34100E82869 /* MovieModel.swift in Sources */,
+				8AA19E2E2C040B7300E82869 /* Movie.swift in Sources */,
+				8AA19E2A2C0406DB00E82869 /* SearchViewController.swift in Sources */,
+				8A8B62C82C06F8D300BCE69B /* SceneDelegate.swift in Sources */,
+				8AA19E322C04F13D00E82869 /* WatchListViewController.swift in Sources */,
+				8AA19DF32C02C86000E82869 /* LoginViewController.swift in Sources */,
+				8AA19E412C05949F00E82869 /* SessionResponse.swift in Sources */,
+				8AA19E372C04F43400E82869 /* TMDBClient.swift in Sources */,
 				8AA19DEF2C02C86000E82869 /* AppDelegate.swift in Sources */,
-				8AA19DF12C02C86000E82869 /* SceneDelegate.swift in Sources */,
+				8AA19E202C02C9CC00E82869 /* GradientView.swift in Sources */,
+				8AA19E3B2C05745800E82869 /* RequestTokenResponse.swift in Sources */,
+				8AA19E3F2C05942F00E82869 /* PostSession.swift in Sources */,
+				8AA19E272C02F5A300E82869 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
